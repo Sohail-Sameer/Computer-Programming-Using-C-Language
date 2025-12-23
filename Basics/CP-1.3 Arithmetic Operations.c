@@ -5,11 +5,11 @@ int main(){
   c = a+b;
   d = a-b;
   e = a*b;
-  f = a/b;
+  f = (float)a/b;
   g = a%b;
   printf("a+b is %d\n", c);
   printf("a-b is %d\n", d);
   printf("a*b is %d\n", e);
-  printf("a/b is %f\n", f);
+  printf("a/b is %.2f\n", f);
   printf("a%b is %d\n", g);
 }
