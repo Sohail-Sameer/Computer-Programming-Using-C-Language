@@ -1,5 +1,5 @@
 #include <stdio.h>
-main(){
+int main(){
   printf("Hello World");
   printf("I have friends");
   printf("I can't name them here");
